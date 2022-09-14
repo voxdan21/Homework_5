@@ -52,7 +52,7 @@ try
     PrintArray(array);
     Console.WriteLine("");
     int sum = CheckEvenNumbers(array);
-    Console.WriteLine(sum);
+    Console.WriteLine($"Количество чётных чисел: {sum}");
 
 }
 catch (Exception ex)
