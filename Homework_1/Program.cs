@@ -49,6 +49,7 @@ try
     int end = Convert.ToInt32(Console.ReadLine());
 
     int[] array = GetArray(size, start, end);
+    Console.WriteLine($"Наш массив:");
     PrintArray(array);
     Console.WriteLine("");
     int sum = CheckEvenNumbers(array);
