@@ -73,7 +73,7 @@ try
     Console.WriteLine("");
     Console.WriteLine($"Произведение пар чисел в одномерном массиве.:");
     PrintArray(multiplicator);
-}  
+}
 catch (Exception ex)
 {
     Console.WriteLine($"Входное значение имеет неверный формат. Ошибка: {ex.Message}");
