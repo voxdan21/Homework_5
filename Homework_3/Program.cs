@@ -23,7 +23,7 @@ void PrintArray(int[] array)
     }
     return;
 }
-
+// метод перемножения крайних чисел
 int[] MultiplicationNumbersArray(int[] array)
 {
     if (array.Length % 2 == 0)
